@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  tags:
+  - Ground
+  - 
+  Builtin Layer 0: Default
+  Builtin Layer 1: TransparentFX
+  Builtin Layer 2: Ignore Raycast
+  Builtin Layer 3: 
+  Builtin Layer 4: Water
+  Builtin Layer 5: 
+  Builtin Layer 6: 
+  Builtin Layer 7: 
+  User Layer 8: Ground
+  User Layer 9: UI
+  User Layer 10: 
+  User Layer 11: 
+  User Layer 12: 
+  User Layer 13: 
+  User Layer 14: 
+  User Layer 15: 
+  User Layer 16: 
+  User Layer 17: 
+  User Layer 18: 
+  User Layer 19: 
+  User Layer 20: 
+  User Layer 21: 
+  User Layer 22: 
+  User Layer 23: 
+  User Layer 24: 
+  User Layer 25: 
+  User Layer 26: 
+  User Layer 27: 
+  User Layer 28: 
+  User Layer 29: 
+  User Layer 30: 
+  User Layer 31: 
+  m_SortingLayers:
+  - name: Default
+    userID: 0
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    userID: 7
+    uniqueID: 2716963097
+    locked: 0
+  - name: Props
+    userID: 8
+    uniqueID: 3935477785
+    locked: 0
+  - name: Platform
+    userID: 2
+    uniqueID: 2796198965
+    locked: 0
+  - name: Enemy
+    userID: 10
+    uniqueID: 3468826021
+    locked: 0
+  - name: EnemyProps
+    userID: 9
+    uniqueID: 1569211345
+    locked: 0
+  - name: Character1
+    userID: 1
+    uniqueID: 2723996979
+    locked: 0
+  - name: Character2
+    userID: 3
+    uniqueID: 2555235003
+    locked: 0
+  - name: Character3
+    userID: 4
+    uniqueID: 1791617303
+    locked: 0
+  - name: Character4
+    userID: 5
+    uniqueID: 1516758119
+    locked: 0
+  - name: Character5
+    userID: 6
+    uniqueID: 1351685477
+    locked: 0
+  - name: Explosion
+    userID: 11
+    uniqueID: 1831224693
+    locked: 0
+  - name: Smack
+    userID: 12
+    uniqueID: 3239576877
+    locked: 0
