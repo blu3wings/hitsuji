@@ -48769,7 +48769,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 879208836}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 345, z: 0}
+  m_LocalPosition: {x: 0, y: 313.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 10876640}
@@ -58780,7 +58780,7 @@ Transform:
   m_GameObject: {fileID: 1059381048}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -28, y: -4, z: 0}
-  m_LocalScale: {x: .00269541773, y: .00269541773, z: .00269541773}
+  m_LocalScale: {x: .00294550811, y: .00294550811, z: .00294550811}
   m_Children:
   - {fileID: 981554578}
   m_Father: {fileID: 0}
@@ -86214,7 +86214,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1568763599}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 403.500366, y: 331, z: 0}
+  m_LocalPosition: {x: 413.500183, y: 299.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 790555527}
@@ -87826,7 +87826,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1610478167}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -479.500366, y: 322.5, z: 0}
+  m_LocalPosition: {x: -489.500183, y: 291, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 422597260}
@@ -101149,7 +101149,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1859661287}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 310, z: 0}
+  m_LocalPosition: {x: 0, y: 278.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1879233756}
@@ -110576,8 +110576,8 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 1227
-  mHeight: 782
+  mWidth: 1247
+  mHeight: 719
   mDepth: 0
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
@@ -116120,8 +116120,8 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 1227
-  mHeight: 782
+  mWidth: 1247
+  mHeight: 719
   mDepth: 0
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
