@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnitySampleAssets.CrossPlatformInput;
 
 public class GameController : MonoBehaviour
 {
@@ -114,7 +115,7 @@ public class GameController : MonoBehaviour
         _playerObj.name = "player";
         _playerObj.GetComponent<CharacterController_Touch>().initialize();
 
-        cameraController.switchBehavior("Follow", _playerObj);
+        cameraController.switchBehavior("ExperimentalPixels.Follow", _playerObj);
     }
 
     private void spawnReward()
@@ -253,9 +254,14 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         cameraController.connectGameController(this);
-        spawnPlayer();
-        uiController.registerUICallbacks(UIAction.INTERMISSION_CONTINUE, onContinue);
-        uiController.registerUICallbacks(UIAction.BUTTON_PLAYAGAIN, onGameOver);
-        setup();
-    }      
+        //spawnPlayer();
+        //uiController.registerUICallbacks(UIAction.INTERMISSION_CONTINUE, onContinue);
+        //uiController.registerUICallbacks(UIAction.BUTTON_PLAYAGAIN, onGameOver);
+        //setup();
+    } 
+    
+    public void onMainMenuClicked()
+    {
+        
+    }
 }

@@ -54,6 +54,7 @@ PlayerSettings:
   xboxEnableKinectAutoTracking: 0
   xboxEnableFitness: 0
   macFullscreenMode: 2
+  d3d9FullscreenMode: 1
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -159,12 +160,19 @@ PlayerSettings:
   psp2TrophyPackagePath: 
   psp2PackagedResourcesPath: 
   flashStrippingLevel: 2
-  spritePackerPolicy: 
-  scriptingDefineSymbols: {}
+  spritePackerPolicy: DefaultPackerPolicy
+  scriptingDefineSymbols:
+    1: CROSS_PLATFORM_INPUT
+    2: CROSS_PLATFORM_INPUT
+    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    15: CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    16: CROSS_PLATFORM_INPUT;MOBILE_INPUT
   metroPackageName: wolly
   metroPackageLogo: 
   metroPackageLogo140: 
   metroPackageLogo180: 
+  metroPackageLogo240: 
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: C:/Users/Danny/Documents/GameProjects/WoolliesMayhem/woolly/Assets/MetroTestCertificate.pfx
   metroCertificatePassword: 
@@ -175,26 +183,44 @@ PlayerSettings:
     or a sheep. One day, some of the sheeps in the herd are missing. So he sets out
     on a journey to locate his friends or so it should be. How will you help Wolly?
     Will he perish or will he be able to return which his friends?
-  metroTileLogo80: 
-  metroTileLogo: C:/Users/Danny/Pictures/gse150.PNG
-  metroTileLogo140: 
-  metroTileLogo180: 
-  metroTileWideLogo80: 
-  metroTileWideLogo: C:/Users/Danny/Pictures/gse310.PNG
-  metroTileWideLogo140: 
-  metroTileWideLogo180: 
-  metroTileSmallLogo80: 
-  metroTileSmallLogo: C:/Users/Danny/Pictures/gse30.png
-  metroTileSmallLogo140: 
-  metroTileSmallLogo180: 
-  metroSmallTile80: 
-  metroSmallTile: 
-  metroSmallTile140: 
-  metroSmallTile180: 
-  metroLargeTile80: 
-  metroLargeTile: 
-  metroLargeTile140: 
-  metroLargeTile180: 
+  metroStoreTileLogo80: 
+  metroStoreTileLogo: 
+  metroStoreTileLogo140: 
+  metroStoreTileLogo180: 
+  metroStoreTileWideLogo80: 
+  metroStoreTileWideLogo: 
+  metroStoreTileWideLogo140: 
+  metroStoreTileWideLogo180: 
+  metroStoreTileSmallLogo80: 
+  metroStoreTileSmallLogo: 
+  metroStoreTileSmallLogo140: 
+  metroStoreTileSmallLogo180: 
+  metroStoreSmallTile80: 
+  metroStoreSmallTile: 
+  metroStoreSmallTile140: 
+  metroStoreSmallTile180: 
+  metroStoreLargeTile80: 
+  metroStoreLargeTile: 
+  metroStoreLargeTile140: 
+  metroStoreLargeTile180: 
+  metroStoreSplashScreenImage: 
+  metroStoreSplashScreenImage140: 
+  metroStoreSplashScreenImage180: 
+  metroPhoneAppIcon: 
+  metroPhoneAppIcon140: 
+  metroPhoneAppIcon240: 
+  metroPhoneSmallTile: 
+  metroPhoneSmallTile140: 
+  metroPhoneSmallTile240: 
+  metroPhoneMediumTile: 
+  metroPhoneMediumTile140: 
+  metroPhoneMediumTile240: 
+  metroPhoneWideTile: 
+  metroPhoneWideTile140: 
+  metroPhoneWideTile240: 
+  metroPhoneSplashScreenImage: 
+  metroPhoneSplashScreenImage140: 
+  metroPhoneSplashScreenImage240: 
   metroTileShortName: The Unlikely
   metroCommandLineArgsFile: 
   metroTileShowName: 1
@@ -204,9 +230,6 @@ PlayerSettings:
   metroDefaultTileSize: 1
   metroTileForegroundText: 1
   metroTileBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
-  metroSplashScreenImage: Assets/Textures/Background/ScrewYouProduction.png
-  metroSplashScreenImage140: 
-  metroSplashScreenImage180: 
   metroSplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   metroSplashScreenUseBackgroundColor: 1
   metroCapabilities:
